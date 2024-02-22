@@ -22,13 +22,19 @@ The benefits that we can get applying this principle are the following:<br/>
 </ul>
 
 ### Open Closed Principle
-<em>Embracing Extension</em>
+<em>Embracing Extension</em><br/>
+Classes should be open for extension but closed for modification. 
+In doing so, we stop ourselves from modifying existing code and causing potential new bugs.
+The only exception to the rule is when fixing bugs in existing code.
 ### Liskov Substitution Principle
-<em>Ensuring Substitutability</em>
+<em>Ensuring Substitutability</em><br/>
+if class A is a subtype of class B, we should be able to replace B with A without disrupting the behavior of our program.
 ### Interface Segregation Principle
-<em>Granular Interfaces</em>
+<em>Granular Interfaces</em><br/>
+Larger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.
 ### Dependency Inversion Principle
-<em>Inverting Dependency Flow</em>
+<em>Inverting Dependency Flow</em><br/>
+Depend on abstraccions, not on concretions.
 
 
 
